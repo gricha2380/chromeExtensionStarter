@@ -1,0 +1,14 @@
+{
+  "name":"Plugin Name",
+  "description":"Lorem Ipsum.",
+  "icons":{"128":"logo.png"},
+  "version":"0.0",
+  "manifest_version":2,
+  "content_scripts": [
+      {
+        "matches": ["http://site.com/*"],
+        "js": ["jquery.min.js","script.js"],
+        "css":["style.css"]
+      }
+    ]
+  }
